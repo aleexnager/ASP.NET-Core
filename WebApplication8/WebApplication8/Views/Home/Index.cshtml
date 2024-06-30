@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>PDF Generator</h1>
+    <form method="post" action="@Url.Action("Download", "Pdf")">
+        File name (.pdf) <br />
+        <input type="text" name="fileName" value="" /><br />
+        Text <br />
+        <input type="text" name="text" value="" /><br />
+        <input class="mt-2" type="submit" value="Submit">
+    </form>
+
+    <h1 class="mt-5">Excel Generator</h1>
+    <button onclick="location.href='@Url.Action("Generate", "Excel")'">Press me</button>
+</div>
