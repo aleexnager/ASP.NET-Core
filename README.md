@@ -25,7 +25,11 @@ Para **compilar + ejecutar** el proyecto
 PS C:\path\to\project> dotnet run
 ```
 
+
 Para **compilar + ejecutar** el proyecto de forma automática
 ```
 PS C:\path\to\project> dotnet watch run
 ```
+
+>[!IMPORTANT]\
+>En este repositorio no se explicará el funcionamiento de cada clase .NET por lo que se asume que se posee una comprensión básica del entorno
