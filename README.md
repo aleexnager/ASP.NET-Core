@@ -1,6 +1,6 @@
 # ASP.NET-Core
 En este repositorio encontrarás distintos proyectos para iniciarte en el desarrollo de aplicaciones, aplicaciones web, páginas web, etc usando ASP.NET Core.  
-El repositorio contiene **distintas ramas**, cada una de ellas con un proyecto. Los proyectos aumentan en dificultad tratando los conceptos claves para entender la tecnología y empezar a desarrollar código de forma independiente.
+El repositorio contiene **distintas ramas**, cada una de ellas con un proyecto. Los proyectos aumentan en dificultad tratando los conceptos claves para entender la tecnología y empezar a desarrollar código de forma independiente. Si tienes intención de hacer los proyectos por tu cuenta o entenderlos debes saber que todo lo aprendido en un proyecto se pondrá en práctica en los siguientes, por lo que antes de hacer un proyecto es importante entender los anteriores.
 
 ## Contenidos
 El repositorio contiene **distintas ramas**, cada una de ellas con un proyecto. En cada rama encontrarás una explicación del mismo en el README.md. Los proyectos que vas a encontrar son:
