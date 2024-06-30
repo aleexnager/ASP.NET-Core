@@ -1,0 +1,23 @@
+﻿@model WebApplication7.Models.Entities.Friend
+@Html.ValidationSummary()
+
+<h1>Create friend</h1>
+
+<form method="post" action="/friends/create">
+    <h2>Basic information</h2>
+    <label>Name</label> @Html.ValidationMessage("name") <br />
+    <input type="text" name="name" value="@Model.Name" /><br />
+    <label>Age</label> @Html.ValidationMessage("age") <br />
+    <input type="text" name="age" value="@Model.Age" /><br />
+    <label>Email</label> @Html.ValidationMessage("email") <br />
+    <input type="text" name="email" value="@Model.Email" /><br />
+
+    <h2>Address</h2>
+    <label>Street</label> @Html.ValidationMessage("Address.Street") <br />
+    <input type="text" name="Address.Street" value="Calle A 1" /><br />
+    <label>City</label> @Html.ValidationMessage("Address.City") <br />
+    <input type="text" name="Address.City" value="Madrid" /><br />
+    <label>Zip code</label> @Html.ValidationMessage("Address.ZipCode") <br />
+    <input type="text" name="Address.ZipCode" value="12345" /><br />
+    <input type="submit" value="Submit">
+</form>
